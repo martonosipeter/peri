@@ -1,4 +1,8 @@
+body{
+	margin:auto;
 
+	background-color: black;
+}
 
 details {
     float:bottom;
@@ -144,4 +148,22 @@ label span {
 
 h1{
 	text-align:center;
+	
+}
+
+#gif{
+	width: 600px;
+	right: 10px;
+	position: absolute;
+	top: 400px;
+}
+
+#fejlec{
+	background-color: #ff9900;
+	height: 100px;
+	border-radius: 20px;
+}
+
+p,h1,h2,h3{
+	color:white;
 }
