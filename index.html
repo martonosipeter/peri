@@ -7,31 +7,31 @@
     <link rel="icon" href="" type="image/x-icon">
 </head>
 <body>
-        <h1>Pythonszelidítő</h1>
+        <h1 >Pythonszelidítő</h1>
 
         <div id="legord">
             <details class="custom-select" id="pos">
              <summary class="radios">
-                 <input type="radio" name="item" id="default" title="Termékek" checked>
-                 <input type="radio" name="item" id="item1" title="Processzor">
-                 <input type="radio" name="item" id="item2" title="Videókártya">
-                 <input type="radio" name="item" id="item3" title="Alaplap">
+                 <input type="radio" name="item" id="default" title="További példák" checked>
+                 <input type="radio" name="item" id="item1" title="if">
+                 <input type="radio" name="item" id="item2" title="else">
+                 <input type="radio" name="item" id="item3" title="elif">
                 
              </summary>
              <ul class="list">
                  <li>
                     
-                     <label for="item1"> <a href="proci.html" target="blank" style="text-decoration:none;color: black;">
-                         Processzor
-                          </a>
-                     </label>
+                     <label for="item1"> <a href="" target="blank" style="text-decoration:none;color: black;">IF példa  </a></label>
+                     
+                         
+                        
                     
                  </li>
                  <li>
-                     <label for="item2"><a href="proci.html" target="blank" style="text-decoration:none;color: black;">Videókártya</label></a>
+                     <label for="item2"><a href="" target="blank" style="text-decoration:none;color: black;">Elif példa</label></a>
                  </li>
                  <li>
-                     <label for="item3"><a href="alaplapfo.html" target="blank" style="text-decoration:none;color: black;">Alaplap</label></a>
+                     <label for="item3"><a href="" target="blank" style="text-decoration:none;color: black;">ELse példa</label></a>
                  </li>
                 
                 
@@ -41,21 +41,33 @@
 
 
      <h2>If</h2>
-     <h3>python if else utasítás létrehozása</h3>
-       <p> Ahhoz, hogy Python if else utasításokat hozzunk létre, azzal kell kezdenünk, hogy leírjuk az if szót, majd megadunk egy feltételt, aminek igaznak kell lennie, hogy a feltétel után következő kódsor lefuthasson.</p>
+     <h3>Kezdés: If</h3>
+     <p>Ahhoz hogy elkezdjunk Pythonban egy döntési szálat írni, a legalapvetőbb része maga az if.</p>
+       <p>Először is leírjuk az if szót, majd megadunk egy feltételt, aminek igaznak kell lennie, hogy a feltétel után következő kódsor lefuthasson.</p>
         
         <p>Tehát egy alapvető if utasítás esetében az if szót egy feltétel követi, majd egy kettőspont, ami után Entert kell nyomnunk, és a következő sort behúzni.</p>
 
         <p>Ebben a példában azt mondjuk, hogy x = 20 és y = 15, majd azt állítjuk, hogy ha az x nagyobb mint az y, nyomtassuk ki az x értékét.
 
-            Tehát azt mondjuk, hogy ha az x értéke nagyobb az y értékénél, és mindkettő változó értéke szám, akkor lefut egy kód, ami kinyomtatja a 20-as számot. Az alábbi példakód ezt mutatja.</p>
+            Tehát azt mondjuk, hogy ha az x értéke nagyobb az y értékénél, </p>
+            <p>és mindkettő változó értéke szám, akkor lefut egy kód, ami kinyomtatja a 20-as számot. Az alábbi példakód ezt mutatja.</p>
 
             <img src="if1.png">
-     <h2>Elif</h2>
-     <p></p>
-
-
      <h2>Else</h2>
-     <p></p>
+     <h3>Else utasítás használata</h3>
+       <p>Mi van akkor, ha valami mást akarunk csinálni, ha a feltétel nem teljesül? Ilyenkor kell az else utasítást használni.</p>
+        
+       <p> Ha az x kisebb mint y, akkor egy másik kódrészletet fogunk futtatni. Tehát ha nem teljesül a feltétel, akkor a behúzott utasításon kívüli másik feltételünk kódja fut majd le.</p>
+        <p>Ahogy láthatod, a fenti feltétel (x>y) nem teljesül, ezért a program inkább az else utasításban lévő kódot fogja futtatni, ahol az “Ez az else águnk” string található, ami kiíratásra is kerül.</p>
+            
+        <img src="else.png">
+
+
+     <h2>Elif</h2>
+        <h3>Mire jó az elif?</h3>
+     <p>Ha már van egy if parancsunk és még nem zárjuk le a szálat else-vel akkor kell elif-et használnunk.</p>
+            <p>Az alábbi példán azt látjuk, hogy megadtunk két változót aminek értékek adtunk.</p>
+            <p>Majd megvizsgáljuk azt, hogy nagyobb, kisebb vagy egyenlő, és mivel három vizsgálati szempont van elif-et kell használni.</p>
+     <img src="elif.png">
 </body>
 </html>
