@@ -1,5 +1,6 @@
 body{
-	margin:auto;
+	margin: 20px;;
+	
 
 	background-color: black;
 }
@@ -152,10 +153,12 @@ h1{
 }
 
 #gif{
-	width: 600px;
-	right: 10px;
+	width: 400px;
+	height: 200px;
+	top: 121px;
+	left: 750px;
 	position: absolute;
-	top: 400px;
+
 }
 
 #fejlec{
@@ -166,4 +169,9 @@ h1{
 
 p,h1,h2,h3{
 	color:white;
+}
+
+.szoveg{
+	position: absolute;
+	top: 250px;
 }
