@@ -175,3 +175,23 @@ p,h1,h2,h3{
 	position: absolute;
 	top: 250px;
 }
+#gif2{
+	width: 500px;
+	height: 300px;
+	top: 342px;
+	right: 200px;
+	position: absolute;
+
+}
+.bal{
+	text-align: none;
+}
+
+h3{
+	color: white;
+	
+	font-size: 40px;
+	top: 200px;
+	right: 300px;
+	position: absolute;
+}
