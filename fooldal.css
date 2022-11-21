@@ -1,4 +1,9 @@
+body{
+	margin: 20px;;
+	
 
+	background-color: black;
+}
 
 details {
     float:bottom;
@@ -140,4 +145,33 @@ label span {
 #legord{
 	position: absolute;
 	top: 20px;
+}
+
+h1{
+	text-align:center;
+	
+}
+
+#gif{
+	width: 400px;
+	height: 200px;
+	top: 121px;
+	left: 750px;
+	position: absolute;
+
+}
+
+#fejlec{
+	background-color: #ff9900;
+	height: 100px;
+	border-radius: 20px;
+}
+
+p,h1,h2,h3{
+	color:white;
+}
+
+.szoveg{
+	position: absolute;
+	top: 250px;
 }
